@@ -9,10 +9,10 @@ python process_movie_dialogue_subword.py
 ```
 command, followed by
 ```
-python train_movie_dialogue_sw_gpt_primer.py
+python train_movie_dialogue_sw_tf_ver2_primer.py
 ```
 to train the model. After training is complete, run
 ```
-python infer_movie_dialogue_sw_gpt_primer.py
+python infer_movie_dialogue_sw_tf_ver2_primer.py
 ```
 to perform inference using the model.

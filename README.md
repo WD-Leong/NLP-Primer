@@ -19,3 +19,6 @@ to perform inference using the model.
 
 ## RMS Normalisation Layer
 Following [Gopher](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval), `tf_ver2_gpt_rms_primer.py` was added to use RMS Normalisation Layer. No visible difference was noticed apart from a very slight improvement in training wall clock. To use this version, change `import tf_ver2_gpt_primer as tf_gpt` to `import tf_ver2_gpt_rms_primer as tf_gpt` in line 9 of the training main code. Alternatively, `train_movie_dialogue_sw_tf_ver2_rms_primer.py` can be run to train the movie dialogue chatbot model.
+
+## Mixup Augmentation
+Following the advancements in the Computer Vision domain where mix-up augmentation was shown to improve object detection results, mix-up augmentation was included to explore if a similar approach would yield better models.
